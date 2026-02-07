@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Profesional</title>
+    <style>
+        /* Estilos Generales */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #000000;
+        }
+
+        /* Encabezado con Foto */
+        header {
+            background: #000000;
+            color: #ffffff;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 5px solid #e30505;
+            object-fit: cover;
+            margin-bottom: 15px;
+            background-color: #fff;
+        }
+
+        header h1 {
+            margin: 10px 0 5px 0;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+            opacity: 0.9;
+        }
+
+        /* Contenedor Principal */
+        .container {
+            max-width: 900px;
+            margin: -30px auto 40px auto; /* Sube un poco para solapar el header */
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #000000;
+            border-left: 5px solid #d3d3d3;
+            padding-left: 15px;
+            margin-top: 40px;
+            text-transform: uppercase;
+            font-size: 1.4rem;
+        }
+
+        /* Elementos de experiencia y educación */
+        .item {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .item:last-child {
+            border-bottom: none;
+        }
+
+        .item h3 {
+            margin: 0;
+            color: #000000;
+            font-size: 1.2rem;
+        }
+
+        .meta {
+            display: flex;
+            justify-content: space-between;
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 0.95rem;
+            margin-bottom: 10px;
+        }
+
+        /* Habilidades */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .skill-badge {
+            background: #e1dede;
+            color: #000000;
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 0.85rem;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #95a5a6;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .container { margin: 10px; padding: 20px; }
+            .meta { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="Kaká _3.jpg" alt="Foto de Perfil" class="profile-img">
+    <h1>Andres zape </h1>
+    <p>Desarrollador Web / Administrador de Empresas</p>
+</header>
+
+<div class="container">
+    
+    <section>
+        <h2>Presentación</h2>
+        <p>
+            Profesional proactivo con alta capacidad de adaptación y aprendizaje. Enfocado en resultados y en la optimización de procesos mediante herramientas tecnológicas. Cuento con excelentes habilidades comunicativas y experiencia trabajando en entornos colaborativos.
+        </p>
+    </section>
+
+    <section>
+        <h2>Información Laboral</h2>
+        
+        <div class="item">
+            <h3>Coordinador de Proyectos</h3>
+            <div class="meta">
+                <span>Empresa Tech Solutions</span>
+                <span>Ene 2022 - Presente</span>
+            </div>
+            <ul>
+                <li>Liderazgo de equipos técnicos para la entrega de software.</li>
+                <li>Reducción de costos operativos en un 15% mediante automatización.</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <h3>Asistente Administrativo</h3>
+            <div class="meta">
+                <span>Comercializadora Global</span>
+                <span>Feb 2019 - Dic 2021</span>
+            </div>
+            <ul>
+                <li>Gestión de bases de datos y atención al cliente corporativo.</li>
+                <li>Organización de cronogramas y logística de eventos.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Información Académica</h2>
+        
+        <div class="item">
+            <h3>Grado en Ingeniería de Sistemas</h3>
+            <div class="meta">
+                <span>Universidad Nacional</span>
+                <span>Graduado en 2021</span>
+            </div>
+        </div>
+
+        <div class="item">
+            <h3>Certificación en Marketing Digital</h3>
+            <div class="meta">
+                <span>Instituto de Tecnología</span>
+                <span>2022</span>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Habilidades Técnicas</h2>
+        <div class="skills-container">
+            <span class="skill-badge">HTML / CSS</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">Excel Avanzado</span>
+            <span class="skill-badge">Gestión de Equipos</span>
+            <span class="skill-badge">Inglés B2</span>
+            <span class="skill-badge">Metodologías Ágiles</span>
+        </div>
+    </section>
+     <h2>Idioma</h2>
+        <div class="skills-container">
+            <span class="skill-badge">Español</span>
+             <span class="skill-badge">Ingles</span>
+           
+        </div>
+    </section>
+    <section>
+        <h2>Contacto</h2>
+        <p><strong>📍 Ubicación:</strong> En mi casa, Venezuela </p>
+        <p><strong>📧 Email:</strong> contacto@tuemail.com</p>
+        <p><strong>📞 Teléfono:</strong> +123 456 7890</p>
+    </section>
+
+</div>
+
+<footer>
+    &copy; 2026 - Portafolio Profesional creado por Andres zape. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
